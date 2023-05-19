@@ -28,15 +28,15 @@ V případě, že všechny podmínky nejsou splněny, tichý alarm není aktivov
 ## Popis funkce jednotlivých komponent
 ### Senzor otevření
 Senzor otevření je umístěn v horní části dveří. V případě, že se někdo otevře dveře, senzor odešle signál do Home Assistantu.
-![Senzor otevření](./senzor_dvere.jpg)
+![Senzor otevření](./images/senzor_dvere.jpg)
 
 ### Senzor pohybu
 Senzor pohypu je umístěn ve středu chodby, tak aby pokryl celou chodbu. V případě, že se někdo pohybuje v chodbě, senzor odešle signál do Home Assistantu.
-![Senzor pohybu](./senzor_pohyb.jpg)
+![Senzor pohybu](./images/senzor_pohyb.jpg)
 
 ### LED žárovka
 LED žárovka je umístěna v pokoji nad postelí. V případě, že je tichý alarm aktivován, žárovka bliká.
-![LED žárovka](./led_zarovka.jpg)
+![LED žárovka](./images/led_zarovka.jpg)
 
 ### Home Assistant
 Home Assistant je nainstalován na Raspberry Pi 4. Všechny komponenty jsou připojeny do Home Assistantu pomocí Zigbee koridnátoru.
@@ -64,27 +64,27 @@ Pro spuštění alarmu je vytvořen automatizovaný skript, v GUI rozhrání Hom
 ### Spuštěč
 Jako spuštěč akce je zvolen senzor otevření, protože pro neoprávněná osoba je to jediný způsob jak se dostat do buňky.
 
-![Spuštěč](./spouštěče.png)
+![Spuštěč](./images/spouštěče.png)
 
 ### Podmínky
 
 Podmínky jsou nastaveny tak, aby byl alarm spuštěn pouze v případě, že byly splněny všechny podmínky. Pouhý pohyb na chodbě v denní dobu nebo v noci třeba na záchod není důvod spouštět alarm.
-![Podmínky](./podmínky.png)
+![Podmínky](./images/podmínky.png)
 
 ### Akce
 
 Akce je nastavena tak, aby spuštěný alarm běžel dokud není ručně deaktivován. V případě, že je alarm spuštěn, žárovka bliká.
 
-![Akce](./akce.png)
+![Akce](./images/akce.png)
 
 ## Ukázka spuštěného alarmu
-![Alarm](./alarm.gif)
+![Alarm](./images/alarm.gif)
 
 ## Závěr
 
 Vytvořený tichý alarm byl nasazen a testován 2 dny a nebyl shledán žádný problémy s functionalitou. Bonusově byl projekt ještě rozšířen o ranní budík, který rozsvítí žárovku v čase který je nastavený.
 
-![Budík](./budik.png)
+![Budík](./images/budik.png)
 
 Celkově mě projekt velmi bavil a rád bych v budoucnu některé použité prostředky použil pro osobní nasazení v domácnosti.
 Kdybych měl více prostředků vytvořil bych ještě pohybem aktivované noční světlo v chodbě, které by se rozsvítilo v případě potřeby a zhaslo po určité době.
