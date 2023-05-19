@@ -89,3 +89,7 @@ Vytvořený tichý alarm byl nasazen a testován 2 dny a nebyl shledán žádný
 Celkově mě projekt velmi bavil a rád bych v budoucnu některé použité prostředky použil pro osobní nasazení v domácnosti.
 Kdybych měl více prostředků vytvořil bych ještě pohybem aktivované noční světlo v chodbě, které by se rozsvítilo v případě potřeby a zhaslo po určité době.
 Jediné problémy, které bylo nutné překonat byly v případě připojení Raspberry Pi 4 k internetu na kolejích. Zde bylo nutné vytvořit vlastní hotspot a připojit se k němu.
+
+
+---
+Vypracoval: Karel Najman @KNajman
